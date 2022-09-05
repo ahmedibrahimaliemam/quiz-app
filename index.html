@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App OOP JS </title>
+</head>
+<body>
+    <div class="final" style="display: none;"><h2>You answered all the questions</h2>
+    <p class="score"></p>
+    <h4 class="try-again">try again</h4>
+    <button id="again">again</button>
+    </div>
+    <div class="quiz">
+        <div class="count">
+            <p class="current">0</p>
+            <p>/</p>
+            <p class="total"></p>
+        </div>
+    </div>
+       
+        <h3 id="questions">Questions</h3>
+        <lable id="a1" class="container"></lable>
+        <lable id="a2" class="container"></lable>
+        <lable id="a3" class="container"></lable>
+        <lable id="a4" class="container"></lable>
+        <button id="next">Submit</button>
+       
+    
+   
+    <div class="setting">
+        <h2>Quiz setting</h2>
+        <label for="category">select category</label>
+        <select name="" id="category">
+            <option value="9">General knowledge</option>
+            <option value="27">Animals</option>
+            <option value="23">History</option>
+            <option value="21">Sports</option>
+        </select>
+        <div>
+            <label for="difficulty">Difficulty</label>
+            <label for="easy">
+                <input type="radio" id="easy" name="select">
+                Easy
+            </label>
+            <label for="medium">
+                <input type="radio" id="medium" name="select">
+                Medium
+            </label>
+            <label for="difficult">
+                <input type="radio" id="difficult" name="select">
+                Difficult
+            </label>
+        </div>
+        <div>
+            <label for="nquestion">
+                Number Of Questions
+                <input type="number" id="nquestion">
+            </label>
+        </div>
+        <button id="start" class="submit">Start Quiz</button>
+    </div>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
